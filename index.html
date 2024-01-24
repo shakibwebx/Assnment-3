@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Hockys</title>
+    <!-- tailwind and daisy -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Manrope google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+
+    <style>
+        .font-manrope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-manrope">
+
+    <header>
+                <!-- carousel secition -->
+
+                <section class="container mx-auto my-5">
+                    <div class="carousel w-full relative">
+                        <div id="slide1" class="carousel-item relative w-full">
+                          <img src="Images/1.png" class="w-full" />
+                          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a> 
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                          </div>
+                        </div> 
+                        
+                      </div>
+                      <div class="flex  justify-end">
+                        <div class="relative lg:-mt-44 mb-10 mr-10 bg-black text-white p-8 w-[502px] rounded-2xl">
+                            <h5 class="text-xl font-extrabold">Meet all the heroes from the field</h5>
+                            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                          </div>
+                      </div>
+                </section>
+
+    </header>
+
+    <main>
+
+      <!-- progress bar section -->
+
+      <section>
+          <div class="text-center mt-24 mb-8">
+            <h3 class="my-6 text-4xl font-extrabold">Professional Hockeys Club</h3>
+        <p class="font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+          </div>
+
+          <!-- progress bar -->
+
+          <div class="flex justify-center gap-16 flex-col lg:flex-row container mx-auto">
+            <div class="text-center">
+              <div class="radial-progress text-primary text-red-500 bg-slate-300 " style="--value:87;" role="progressbar"> <span class="text-black bg-white rounded-full h-16 w-16 pt-5">87%</span></div>
+              <div class="text-center">
+                <h4 class="text-xl font-semibold my-4">Prayer Facility</h4>
+              <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+              </div>
+            </div>
+
+            <div class="text-center">
+              <div class="radial-progress text-primary text-[#49D293] bg-slate-300 " style="--value:95;" role="progressbar"> <span class="text-black bg-white rounded-full h-16 w-16 pt-5">95%</span></div>
+              <div class="text-center">
+                <h4 class="text-xl font-semibold my-4">Experienced Coach</h4>
+              <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="radial-progress text-primary text-yellow-300 bg-slate-300" style="--value:90;" role="progressbar"><span class="text-black bg-white rounded-full h-16 w-16 pt-5">90%</span></div>
+              <div class="text-center">
+                <h4 class="text-xl font-semibold my-4">Senior Player</h4>
+              <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="radial-progress text-primary text-blue-400 bg-slate-300 " style="--value:80;" role="progressbar"> <span class="text-black bg-white rounded-full h-16 w-16 pt-5">80%</span></div>
+              <div class="text-center">
+                <h4 class="text-xl font-semibold my-4">Training Ground</h4>
+              <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+              </div>
+            </div>
+
+          </div>
+    
+      
+        
+          
+        
+      </section>
+
+      <!-- program section -->
+
+      <div>
+        <div class="text-center mt-24 mb-8">
+          <h3 class="my-6 text-4xl font-extrabold">Program Sections</h3>
+      <p class="font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+        </div>
+      </div>
+
+      <div class="flex container mx-auto justify-center gap-5 flex-col lg:flex-row">
+        <div class="card w-[573px] bg-[#13131880] shadow-xl image-full">
+          <figure><img src="Images/2.png" alt="Shoes" /></figure>
+          <div class="card-body pt-24 px-10">
+            <h2 class="card-title text-white text-2xl mt-6">Junior Program</h2>
+            <p class="text-sm my-3 	">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <div class="card-actions justify-start">
+              <button class="btn bg-red-500 text-white border-none w-40 h-3">Register Now!</button>
+            </div>
+          </div>
+        </div>
+        <div class="card w-[573px] bg-[#13131880] shadow-xl image-full">
+          <figure><img src="Images/3.png" alt="Shoes" /></figure>
+          <div class="card-body pt-24 px-10">
+            <h2 class="card-title text-white text-2xl mt-6">Teenager Program</h2>
+            <p class="text-sm my-3 	">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+            <div class="card-actions justify-start">
+              <button class="btn bg-red-500 text-white border-none w-40 h-3">Register Now!</button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="container mx-auto mt-4 flex justify-center">
+
+        <div class="card w-[1170px] bg-[#000000] bg-opacity-10 shadow-xl image-full">
+          <figure><img src="Images/4.png" alt="Shoes" /></figure>
+          <div class="card-body pt-24 px-10">
+            <h2 class="card-title text-white text-2xl mt-32">Junior Program</h2>
+            <p class="text-sm my-3 p-0	">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br> morbi nulla. Tortor congue sed et in.</p>
+            <div class="card-actions justify-start">
+              <button class="btn bg-red-500 text-white border-none w-40 h-3">Register Now!</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <section>
+        <div>
+          <div class="text-center mt-24 mb-8">
+            <h3 class="my-6 text-4xl font-extrabold">Our New Products</h3>
+        <p class="font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+          </div>
+        </div>
+      </section>
+
+
+
+    </main>
+    
+
+    <footer>
+
+    </footer>
+</body>
+</html>
